@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores predeterminados -->
+
+            <!-- Color del toolbar -->
+            <color name="colorPrimary">#000000</color>
+            <!-- Color de la barra de notificaciones -->
+            <color name="colorPrimaryDark">#e3000000</color>
+            <!-- Color del puntero que sale al clickear en lugares donde puedas escribir/borrar -->
+            <color name="colorAccent">#484848</color>
+
+    <!-- Colores que se encuentran en la actividad Login -->
+
+            <!-- Color de fondo del layout de la actividad -->
+            <color name="colorBackgroundLayoutLogin">#ffffff</color>
+            <!-- Color de los Text View -->
+            <color name="colorBackgroundTxtLogin">#0f000000</color>
+            <!-- Color del fondo de los botones -->
+            <color name="colorBackgroundBtnLogin">#000000</color>
+            <!-- Color del texto de dentro de los botones -->
+            <color name="colorTxtBtnLogin">#ffffff</color>
+</resources>

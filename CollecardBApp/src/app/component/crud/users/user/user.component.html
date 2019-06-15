@@ -1,0 +1,32 @@
+<div class="card mt-5">
+  <div class="card-body">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+        <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="userService.selectUser.$key">
+      <div class="form-group">
+        <input type="text" class="form-control" name="nombre" #nombre="ngModel" [(ngModel)]="userService.selectUser.nombre" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="apellido" #apellido="ngModel" [(ngModel)]="userService.selectUser.apellido" placeholder="Last name">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="email" #email="ngModel" [(ngModel)]="userService.selectUser.email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="telefono" #telefono="ngModel" [(ngModel)]="userService.selectUser.telefono" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="usuario" #usuario="ngModel" [(ngModel)]="userService.selectUser.usuario" placeholder="Username">
+      </div>
+
+      <div class="form-group">
+        <button class="btn btn-primary ml-5" type="submit">
+          Añadir usuario
+        </button>
+        <button class="btn btn-danger ml-5" type="reset" (click)="resetForm(userForm)">
+            Borrar campos
+          </button>
+      </div>
+
+    </form>
+  </div>
+</div>

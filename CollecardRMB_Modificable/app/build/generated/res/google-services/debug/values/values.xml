@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">573448410362-sqeerja6a5t2c18tia6q2ql5tm65ir6k.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://collecard-c6199.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">573448410362</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9HiciraVdkoy0boMVAZ6oLPMN2hdNpC8</string>
+    <string name="google_app_id" translatable="false">1:573448410362:android:a308172db2ebbfb8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9HiciraVdkoy0boMVAZ6oLPMN2hdNpC8</string>
+    <string name="google_storage_bucket" translatable="false">collecard-c6199.appspot.com</string>
+    <string name="project_id" translatable="false">collecard-c6199</string>
+</resources>

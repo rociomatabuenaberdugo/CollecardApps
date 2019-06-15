@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Nombre de la aplicación, que saldrá en la toolbar. -->
+    <string name="app_name">Collecard</string>
+
+    <!-- String necesarios en el layout del login. -->
+    <string name="login_usr_txt">Correo electrónico</string>
+    <string name="login_pwd_txt">Contraseña</string>
+    <string name="login_login_btn_txt">Iniciar sesión</string>
+    <string name="login_register_btn_txt">Registrarse</string>
+    <string name="logo_des">Logo de la aplicación</string>
+
+    <!-- String necesarios y NUEVOS en el layout del register (normal y final). -->
+    <string name="register_firstName_txt">Nombre</string>
+    <string name="register_lastName_txt">Apellidos</string>
+    <string name="register_email_txt">Correo electrónico</string>
+    <string name="register_pwd_confirm_txt">Confirmar contraseña</string>
+    <string name="register_ph_num">Número de teléfono</string>
+    <string name="register_alias_txt">Nombre de usuario</string>
+    <string name="register_btn_txt">Confirmar registro</string>
+
+    <!-- String de errores en el layout del register (normal y final). -->
+    <string name="register_error_alphabetic">Este campo no puede contener caracteres no alfabéticos.</string>
+    <string name="register_error_alphanumeric">Este campo no puede contener caracteres no alfanuméricos.</string>
+    <string name="register_error_login">No puede haber ningún campo que se encuentre vacío.</string>
+    <string name="register_error_login_pwd">La contraseña y su confirmación deben coincidir.</string>
+    <string name="register_error_login_pwd_length">La contraseña debe contener como mínimo 5 caracteres.</string>
+
+    <!-- String de errores en el layout del login -->
+    <string name="login_error_login_void">No puede haber ningún campo que se encuentre vacío.</string>
+    <string name="login_error_login_incorrect">Campos incorrectos.</string>
+
+    <!-- String de las opciones de los menús -->
+    <string name="menu_option_one_info">Información de la carta. </string>
+    <string name="menu_option_one_delete">Borrar carta. </string>
+    <string name="menu_option_two_new">Nueva carta. </string>
+    <string name="menu_option_two_logOff">Cerrar sesión. </string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- Menu Activity -->
+    <string name="menu_all_cards_btn_txt">Todas las cartas</string>
+    <string name="menu_USER_cards_btn_txt">Mis cartas</string>
+
+    <!-- Menu -->
+    <string name="menu_sett">Ajustes</string>
+    <string name="menu_info">Información</string>
+
+    <!-- Information Activity -->
+    <string name="inf_act_name">Bienvenido a Collecard</string>
+    <string name="inf_act_pha1">Collecards es una aplicación donde poder anotar las cartas coleccionables que posees.</string>
+    <string name="inf_act_pha2">Podrás encontrar, al iniciar sesión en la aplicación, un botones. A continuación te explicamos su funcionalidad:</string>
+    <string name="inf_act_pha3_btn1">"TODAS LAS CARTAS":</string>
+    <string name="inf_act_pha4_btn1">Este primer botón nos permitirá explorar por todas las cartas recogidas en nuestra aplicación para poder marcarlas y que así pasen a estar dentro de nuestra colección.</string>
+   <!--
+    <string name="inf_act_pha5_btn2">"MIS CARTAS":</string>
+    <string name="inf_act_pha6_btn2">Este segundo botón, por otra parte, nos mostrará el listado de las cartas que hayamos marcado.</string>
+    -->
+
+    <!-- Escoger idioma -->
+
+    <string-array name="language">
+        <item>Escoge un idioma</item>
+        <item>Español</item>
+        <item>English</item>
+    </string-array>
+
+</resources>

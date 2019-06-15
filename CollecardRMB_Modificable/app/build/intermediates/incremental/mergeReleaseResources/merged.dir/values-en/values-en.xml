@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>Select language</item>
+        <item>Español</item>
+        <item>English</item>
+    </string-array>
+    <color name="colorAccent">#484848</color>
+    <color name="colorBackgroundBtnLogin">#000000</color>
+    <color name="colorBackgroundLayoutLogin">#ffffff</color>
+    <color name="colorBackgroundTxtLogin">#0f000000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#e3000000</color>
+    <color name="colorTxtBtnLogin">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Collecard</string>
+    <string name="inf_act_name">Welcome to Collecard</string>
+    <string name="inf_act_pha1">Collecard is an application where you can note all the collectable cards you may have.</string>
+    <string name="inf_act_pha2">You can find, after login into the application, one button. We proceed to explain its functionality:</string>
+    <string name="inf_act_pha3_btn1">"ALL THE CARDS":</string>
+    <string name="inf_act_pha4_btn1">This first button would allow us to explore all the cards that are saved in our database. We can mark them so they would be now part of our collection!</string>
+    <string name="login_error_login_incorrect">Incorrect fields.</string>
+    <string name="login_error_login_void">There cannot be any empty field.</string>
+    <string name="login_login_btn_txt">Sign in</string>
+    <string name="login_pwd_txt">Password</string>
+    <string name="login_register_btn_txt">Sign up</string>
+    <string name="login_usr_txt">Email</string>
+    <string name="logo_des">Application logo</string>
+    <string name="menu_USER_cards_btn_txt">My cards</string>
+    <string name="menu_all_cards_btn_txt">All the cards</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_info">About</string>
+    <string name="menu_option_one_delete">Delete card. </string>
+    <string name="menu_option_one_info">Information about the card. </string>
+    <string name="menu_option_two_logOff">Logout. </string>
+    <string name="menu_option_two_new">New card. </string>
+    <string name="menu_send">Send</string>
+    <string name="menu_sett">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="register_alias_txt">Username</string>
+    <string name="register_btn_txt">Confirm sign up</string>
+    <string name="register_email_txt">Email</string>
+    <string name="register_error_alphabetic">This field cannot contain non-alphabetic characters.</string>
+    <string name="register_error_alphanumeric">This field cannott contain non-alphanumeric characters.</string>
+    <string name="register_error_login">There cannott be any empty field.</string>
+    <string name="register_error_login_pwd">Both password must be the same.</string>
+    <string name="register_error_login_pwd_length">The password must be minimum 5 characters long.</string>
+    <string name="register_firstName_txt">Name</string>
+    <string name="register_lastName_txt">Last name</string>
+    <string name="register_ph_num">Phone number</string>
+    <string name="register_pwd_confirm_txt">Confirm password</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

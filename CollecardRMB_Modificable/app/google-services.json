@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573448410362",
+    "firebase_url": "https://collecard-c6199.firebaseio.com",
+    "project_id": "collecard-c6199",
+    "storage_bucket": "collecard-c6199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573448410362:android:a308172db2ebbfb8",
+        "android_client_info": {
+          "package_name": "dam2.collecardrmb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573448410362-up8n6v1sdtg6d3h13snhjs4trvr64jdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dam2.collecardrmb",
+            "certificate_hash": "e961a63bee15f86977e0d150805effcfb47ff39d"
+          }
+        },
+        {
+          "client_id": "573448410362-sqeerja6a5t2c18tia6q2ql5tm65ir6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9HiciraVdkoy0boMVAZ6oLPMN2hdNpC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573448410362-sqeerja6a5t2c18tia6q2ql5tm65ir6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

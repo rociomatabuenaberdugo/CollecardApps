@@ -1,0 +1,21 @@
+<div class="card mt-5" style="width: 1000px">
+  <div class="card-body">
+    <h6 class="text-center">Lista de usuarios</h6>
+    <table class="table table-sm table-hover">
+      <tbody>
+        <tr *ngFor="let user of userList">
+          <td>{{user.nombre}}</td>
+          <td>{{user.apellido}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.telefono}}</td>
+          <td>{{user.usuario}}</td>
+          <td>
+            <a class="btn btn-danger text-white" (click)="onRemoveCRUD(user.$key)">
+                <i class="far fa-trash-alt"></i>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+</div>
